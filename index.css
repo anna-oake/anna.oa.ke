@@ -1,0 +1,65 @@
+:root {
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: "Pokémon DP Pro";
+    src: local("Pokémon DP Pro"),
+        url("/assets/pokemon-dp-pro.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+    margin: 5%;
+    position: absolute;
+    color: #ffffffaa;
+    height: min-content;
+    font-family: "Pokémon DP Pro";
+    font-size: 2rem;
+    text-shadow: 0px 2px #ffffffaa;
+    /* filter: brightness(1.1) contrast(1.1) drop-shadow(0 2px  #ffffffaa); */
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+#specs {
+    margin-bottom: 2rem;
+    word-spacing: 4pt;
+    line-height: 1.7rem;
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+}
+
+.red-text {
+    color: #ff490b80;
+    text-shadow: 0px 1.9px #ff490b80;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.logo-text {
+    height: 7rem;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.chromatic {
+    position: relative;
+    -webkit-filter: url(#chromatic);
+}

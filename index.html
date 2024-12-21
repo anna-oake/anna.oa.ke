@@ -1,11 +1,25 @@
 <html>
 
 <head>
-	<title>Anna Oake</title>
+	<meta name="darkreader-lock">
+	<meta charset="utf-8">
+	<title>ARAR-A2111</title>
+	<link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-	<h1>Hey!</h1>
+<body class="">
+	<div id="title">
+		<img class="pixel-art logo" src="/assets/ARAR_Logo.webp">
+		<img class="pixel-art logo-text" src="/assets/LSTR_eusan.png">
+	</div>
+
+	<div id="specs">
+		<p>ARAR KERNEL 2.11.1 REPLIKA-BETRIEBSYSTEM</p>
+		<p>Generation <span class="red-text">2</span> REALLY FUCKING CUTE REPLIKA</p>
+		<p>Chipset Model: <span class=red-text>｢CORE 2 DUO｣</span></p>
+
+	</div>
+
 	<p>I'm Anna Oake.</p>
 	<p>As you have probably figured out, this is a placeholder.</p>
 	<p>One day I will have a nice website, but for now you can...</p>
@@ -17,3 +31,25 @@
 </body>
 
 </html>
+
+<svg width="0" height="0">
+	<defs>
+		<filter id="blur">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="0 0" />
+		</filter>
+	</defs>
+	<filter id="chromatic">
+		<feColorMatrix type="matrix" result="red_" values="4 0 0 0 0
+				0 0 0 0 0 
+				0 0 0 0 0 
+				0 0 0 1 0" />
+		<feOffset in="red_" dx="0" dy="-0.5" result="red" />
+		<feColorMatrix type="matrix" in="SourceGraphic" result="blue_" values="0 0 0 0 0
+				0 1 0 0 0 
+				0 0 10 0 0 
+				0 0 0 1 0" />
+		<feOffset in="blue_" dx="0" dy="0.5" result="blue" />
+		<feBlend mode="screen" in="red" in2="blue" />
+
+	</filter>
+</svg>
