@@ -25,10 +25,25 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.shadow {
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff80;
 }
 
 p {
     margin: 0;
+}
+
+#content {
+    margin-top: 8rem;
 }
 
 #specs {
@@ -44,6 +59,11 @@ p {
 .red-text {
     color: #ff490b80;
     text-shadow: 0px 1.9px #ff490b80;
+}
+
+.blue-text {
+    color: #00bfff80;
+    text-shadow: 0px 1.9px #23c4fa80;
 }
 
 .logo {
