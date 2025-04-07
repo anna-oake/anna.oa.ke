@@ -82,4 +82,5 @@ h3 {
 .chromatic {
     position: relative;
     -webkit-filter: url(#chromatic);
+    filter: url(#chromatic);
 }
